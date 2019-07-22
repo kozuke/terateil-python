@@ -7,6 +7,8 @@ verify_ssl = true
 
 [packages]
 requests = "*"
+pandas-datareader = "*"
+pandas = "<0.25.0"
 
 [requires]
 python_version = "3.7"
